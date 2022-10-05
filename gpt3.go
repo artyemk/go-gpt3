@@ -14,14 +14,14 @@ import (
 
 // Engine Types
 const (
-	TextAda001Engine     = "text-ada-001"
-	TextBabbage001Engine = "text-babbage-001"
-	TextCurie001Engine   = "text-curie-001"
-	TextDavinci001Engine = "text-davinci-001"
+	TextAda001Engine     = "text-ada-002"
+	TextBabbage001Engine = "text-babbage-002"
+	TextCurie001Engine   = "text-curie-002"
+	TextDavinci001Engine = "text-davinci-002"
 	AdaEngine            = "ada"
 	BabbageEngine        = "babbage"
 	CurieEngine          = "curie"
-	DavinciEngine        = "davinci"
+	DavinciEngine        = "text-davinci-002"
 	DefaultEngine        = DavinciEngine
 )
 
