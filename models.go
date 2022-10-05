@@ -100,6 +100,7 @@ type CompletionResponse struct {
 	Created int                        `json:"created"`
 	Model   string                     `json:"model"`
 	Choices []CompletionResponseChoice `json:"choices"`
+	Usage   EditsResponseUsage         `json:"usage"`
 }
 
 // EditsResponse is the full response from a request to the edits API
